@@ -1,0 +1,28 @@
+<div class="panel panel-default">
+    <div class="panel-heading">我的积分</div>
+    <div class="panel-body">
+        <table class="display" cellspacing="0" width="100%">
+            <thead>
+                <td>积分日期</td>
+                <td>客户</td>
+                <td>礼物编号</td>
+                <td>礼物积分</td>
+                <td>数量</td>
+                <td>积分合计</td>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+<script type="text/javascript">
+$("table").dataTable({
+    'ajax': '/api/xxx',
+    'columns': [
+    {'data': "username"}, 
+    {'data': "name"},
+    {'data':"nickname"},
+    {'data':"grant"},
+    {'data':"by"},
+    {'data':"createTime"}]
+});
+</script>

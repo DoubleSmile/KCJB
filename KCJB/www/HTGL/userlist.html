@@ -1,0 +1,289 @@
+<div class="panel panel-default">
+    <div class="panel-heading">用户列表</div>
+    <div class="panel-body">
+        <table class="display" cellspacing="0" width="100%">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>用户名</th>
+                    <th>昵称</th>
+                    <th>真实姓名</th>
+                    <th>用户类型</th>
+                    <th>注册IP</th>
+                    <!--                     <th>来源</th>
+ -->
+                    <th>业务员</th>
+                    <!--                     <th>显示顺序</th>
+ -->
+                    <th>权限</th>
+                    <th>创建日期</th>
+                    <!--                     <th>备注</th>
+ -->
+                    <th>操作</th>
+
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">编辑用户</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" novalidate name="myform" ng-submit="userlistForm()">
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-4 control-label">ID</label><span style="color:red;">*</span>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" id="" placeholder="ID" name="id" ng-model="user.id" required ng-disabled="true">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-4 control-label">用户名</label><span style="color:red;">*</span>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" id="userdd" placeholder="用户名" name="username" ng-model="user.username" required ng-disabled="true">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword5" class="col-sm-4 control-label">昵称</label><span style="color:red;">*</span>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" id="" placeholder="昵称" name="nickname" ng-model="user.nickname" required>
+                        </div>
+                    </div>
+                    <!--                     <div class="form-group">
+                        <label for="" class="col-sm-4 control-label">昵称简写</label>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" id="" placeholder="昵称简写" name="nickAbbr" ng-model="user.nickAbbr">
+                        </div>
+                    </div> -->
+                    <div class="form-group">
+                        <label for="" class="col-sm-4 control-label">真实姓名</label>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" id="" placeholder="真实姓名" name="name" ng-model="user.name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="col-sm-4 control-label">手机/电话</label>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" id="" placeholder="手机/电话" name="mobile" ng-model="user.mobile">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="col-sm-4 control-label">QQ</label>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" id="" placeholder="QQ" name="qq" ng-model="user.qq">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="col-sm-4 control-label">邮箱</label>
+                        <div class="col-sm-5">
+                            <input type="email" class="form-control" id="" placeholder="邮箱" name="mail" ng-model="user.mail">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="col-sm-4 control-label">用户类型</label><span style="color:red;">*</span>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" id="" placeholder="用户类型" name="group" ng-model="user.group" required>
+                        </div>
+                    </div>
+                    <!--                     <div class="form-group">
+                        <label for="" class="col-sm-4 control-label">用户顺序</label>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" id="" placeholder="用户顺序" name="order" ng-model="user.order">
+                        </div>
+                    </div> -->
+                    <!--                    <div class="form-group">
+                        <label for="" class="col-sm-4 control-label">工作时间</label>
+                        <div class="col-sm-5">
+                            <input type="date" class="form-control" id="" placeholder="工作时间" name="workTime" ng-model="user.workTime">
+                        </div>
+                    </div> -->
+                    <div class="form-group">
+                        <label for="" class="col-sm-4 control-label">交易账号</label>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" id="" placeholder="交易账号" name="business" ng-model="user.business">
+                        </div>
+                    </div>                    
+                    <div class="form-group">
+                        <label for="" class="col-sm-4 control-label">我的积分</label>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" id="" placeholder="我的积分" name="score" ng-model="user.score">
+                        </div>
+                    </div>
+                    <!--                     <div class="form-group">
+                        <label for="" class="col-sm-4 control-label">备注</label>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" id="" placeholder="备注" name="beizhu" ng-model="user.beizhu">
+                        </div>
+                    </div> -->
+                    <div class="form-group">
+                        <label for="" class="col-sm-4 control-label"></label>
+                        <div class="col-sm-5">
+                            <input type="radio" name="state" value="0">正常
+                            <input type="radio" name="state" value="-1">封号
+                            <input type="radio" name="state" value="-2">屏蔽
+                            <input type="radio" name="state" value="-3">禁言
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-5">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                            <button type="submit" class="btn btn-primary" id="info_submit">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--  <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                <button type="submit" class="btn btn-primary" ng-disabled="myform.$invalid">保存</button>
+            </div> -->
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+function getInfo1 (id){
+    $.ajax({
+        url: '/api/profile/'+id,
+        dataType: 'json',
+    })
+    .done(function(data) {
+                $("input[name='id']").val(data.id);
+                $("input[name='username']").val(data.username);
+                $("input[name='nickname']").val(data.nickname);
+                $("input[name='name']").val(data.name);
+                $("input[name='mobile']").val(data.mobile);
+                $("input[name='qq']").val(data.qq);
+                $("input[name='mail']").val(data.mail);
+                $("input[name='group']").val(data.group);
+                $("input[name='business']").val(data.business);
+                $("input[name='score']").val(data.score);
+                $("input[name='state']").removeAttr('checked');
+
+                $("input[name='state']").eq(-(Number(data.grant))).prop('checked', true);
+
+    });
+    
+}
+// $("table").dataTable({
+//     "ajax": 'res/data1.json',
+//     "columns": [{
+//         "data": "id"
+//     }, {
+//         "data": "username"
+//     }, {
+//         "data": "nickname"
+//     }, {
+//         "data": "name"
+//     }, {
+//         "data": "group"
+//     }, {
+//         "data": "ip"
+//     }, {
+//         "data": "manager"
+//     }, {
+//         "data": "grant" //要求返回3个作为一组
+//             // "defaultContent": "<input type='checkbox' name='control' disabled='true'>&nbsp;&nbsp;<input type='checkbox' name='control' disabled='true'>&nbsp;&nbsp;<input type='checkbox' name='control' disabled='true' checked='checked'>"
+//     }, {
+//         "data": "createTime"
+//     }]
+//     //     "columnDefs": [
+//     //       {
+//     //         "targets": [ 0 ],
+//     //         "visible": false,
+//     //         "searchable": false
+//     //       }
+//     //     ]
+// });
+// 数据删除
+// $("#info_submit").click(function(event) {
+//     $.ajax({
+//             url: '/api/profile/' + global_id,
+//             type: 'POST',
+//             dataType: 'json',
+//         })
+//         .done(function(data) {
+//             console.log("post success", data);
+//         });
+
+// });
+
+// function getInfo(id) {
+//         console.log(id);
+//         global_id = id;
+//         $.ajax({
+//                 url: '/api/profile/' + id,
+//                 type: 'GET',
+//                 dataType: 'json'
+
+//             })
+//             .done(function(data) {
+//                 console.log("get success", data);
+//                 $("input[name='id']").val(data.id);
+//                 $("input[name='username']").val(data.username);
+//                 $("input[name='nickname']").val(data.nickname);
+//                 $("input[name='name']").val(data.name);
+//                 $("input[name='mobile']").val(data.mobile);
+//                 $("input[name='qq']").val(data.qq);
+//                 $("input[name='mail']").val(data.mail);
+//                 $("input[name='group']").val(data.group);
+//                 $("input[name='business']").val(data.business);
+
+//             });
+
+//     }
+    // 选中删除
+
+// $('tbody').on('click', 'tr', function(e) {
+//     e.preventDefault();
+//     var table = $('table').DataTable();
+
+//     if ($(this).hasClass('selected')) {
+//         $(this).removeClass('selected');
+//     } else {
+//         table.$('tr.selected').removeClass('selected');
+//         $(this).addClass('selected');
+//     }
+//     // username = $(this)[0].cells[0].innerHTML;
+//     // var id = $(this)[0].cells[0].innerHTML
+//     // $("input[name='username']").val($(this)[0].cells[1].innerHTML);
+//     // $("input[name='nickname']").val($(this)[0].cells[2].innerHTML);
+//     // $("input[name='name']").val($(this)[0].cells[3].innerHTML);
+//     // $("input[name='userType']").val($(this)[0].cells[4].innerHTML);
+//     // $("input[name='IP']").val($(this)[0].cells[5].innerHTML);
+//     // $("input[name='source']").val($(this)[0].cells[6].innerHTML);
+//     // $("input[name='manager']").val($(this)[0].cells[7].innerHTML);
+//     // $("input[name='']").val($(this)[0].cells[7].innerHTML);
+//     // $("input[name='']").val($(this)[0].cells[8].innerHTML);
+//     // console.log($(this)[0].cells[0].innerHTML);           
+
+
+// });
+// $('tbody').on('click', '.btn-danger', function(e) {
+//     e.preventDefault();
+
+//     if (confirm("确定要删除该属性？")) {
+//         var table = $('table').DataTable();
+//         table.row($(this).parents('tr')).remove().draw(false);
+//         console.log(username);
+//         $.ajax({
+//                 url: '/path/to/file',
+//                 type: 'POST',
+//                 dataType: 'json',
+//                 data: {
+//                     username: username
+//                 },
+//             })
+//             .done(function() {
+//                 console.log("success");
+//             });
+
+//     }
+
+// });
+</script>

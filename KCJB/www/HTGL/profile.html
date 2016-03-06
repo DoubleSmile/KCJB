@@ -1,0 +1,92 @@
+<div class="panel panel-default">
+    <div class="panel-heading">个人资料</div>
+    <div class="panel-body">
+        <form class="form-horizontal" novalidate ng-submit="profileForm()" name="myform">
+            <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">用户名</label><span style="color:red;">*</span>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" id="inputEmail3" placeholder="用户名" name="username" ng-model="user.username" ng-disabled="true" required ng-minlength="3" ng-maxlength="20">
+                </div>
+                <div class="error" ng-show="myform.username.$dirty && myform.username.$invalid">
+                    <small class="error" ng-show="myform.username.$error.required">username is required</small>
+                    <small class="error" ng-show="myform.username.$error.minlength">username is at least 3 letters</small>
+                    <small class="error" ng-show="myform.username.$error.maxlength">username is no longer than 10 letters</small>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPassword3" class="col-sm-2 control-label">昵称</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" id="inputPassword3" placeholder="昵称" name="nickname" ng-model="user.nickname" required>
+                </div>
+                <div class="error" ng-show="myform.nickname.$dirty && myform.nickname.$invalid">
+                    <small class="error" ng-show="myform.nickname.$error.required">nickname is required</small>
+                    <small class="error" ng-show="myform.nickname.$error.minlength">nickname is at least 3 letters</small>
+                    <small class="error" ng-show="myform.nickname.$error.maxlength">nickname is no longer than 10 letters</small>
+                </div>
+            </div>
+<!--             <div class="form-group">
+                <label for="" class="col-sm-2 control-label">昵称简写</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" id="" placeholder="昵称简写" name="nickAbbr" ng-model="user.nickAbbr">
+                </div>
+            </div> -->
+            <div class="form-group">
+                <label for="" class="col-sm-2 control-label">真实姓名</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" id="" placeholder="真实姓名" name="name" ng-model="user.name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-2 control-label">手机/电话</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" id="" placeholder="手机/电话" name="mobile" ng-model="user.mobile">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-2 control-label">QQ</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" id="" placeholder="QQ" name="qq" ng-model="user.qq" required>
+                </div>
+                <div class="error" ng-show="myform.qq.$dirty && myform.qq.$invalid">
+                    <small class="error" ng-show="myform.qq.$error.required">qq is required</small>
+                    <small class="error" ng-show="myform.qq.$error.minlength">qq is at least 3 letters</small>
+                    <small class="error" ng-show="myform.qq.$error.maxlength">qq is no longer than 10 letters</small>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-2 control-label">邮箱</label>
+                <div class="col-sm-3">
+                    <input type="email" class="form-control" id="" placeholder="邮箱" name="mail" ng-model="user.mail">
+                </div>
+            </div>
+<!--             <div class="form-group">
+                <label for="" class="col-sm-2 control-label">工作时间</label>
+                <div class="col-sm-3">
+                    <input type="date" class="form-control" id="" placeholder="工作时间" name="workTime" ng-model="user.workTime">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-2 control-label">密保问题</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" id="" placeholder="密保问题" name="securityQuestion" ng-model="user.securityQuestion">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-2 control-label">密保答案</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" id="" placeholder="密保答案" name="securityAnswer" ng-model="user.securityAnswer">
+                </div>
+            </div> -->
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-3">
+                    <button type="submit" class="btn btn-primary" ng-disabled="myform.$invalid">保存</button>
+                </div>
+            </div>
+<!--             <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-3">
+                    <button type="" class="btn btn-default">取消</button>
+                </div>
+            </div> -->
+        </form>
+    </div>
+</div>

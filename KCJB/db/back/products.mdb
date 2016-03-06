@@ -1,0 +1,6 @@
+{ "_id" : { "$oid" : "55993eabc66e1b8d6d037f07" }, "cost" : 9, "name" : "汇通银", "category" : "汇通银", "factor" : 1, "__v" : 0 }
+{ "_id" : { "$oid" : "55993eb9c66e1b8d6d037f08" }, "cost" : 9, "name" : "汇通油", "category" : "汇通银", "factor" : 1, "__v" : 0 }
+{ "_id" : { "$oid" : "55993ed5c66e1b8d6d037f09" }, "cost" : 70, "name" : "汇通铜", "category" : "汇通银", "factor" : 0.1, "__v" : 0 }
+{ "_id" : { "$oid" : "559bf5e478db1a84111b9dee" }, "cost" : 9, "name" : "白银", "category" : "保利", "factor" : 1, "__v" : 0 }
+{ "_id" : { "$oid" : "559bf5f478db1a84111b9def" }, "cost" : 10, "name" : "原油", "category" : "保利", "factor" : 10, "__v" : 0 }
+{ "_id" : { "$oid" : "559bf62478db1a84111b9df0" }, "cost" : 90, "name" : "铜", "category" : "保利", "factor" : 0.1, "__v" : 0 }

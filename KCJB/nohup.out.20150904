@@ -1,0 +1,1050 @@
+
+> KCJB@0.0.0 start /root/KCJB
+> node ./bin/www
+
+listen
+listen done
+listening worker 1067Address:
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+0
+1
+2
+0
+1
+2
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  token: '559936edc66e1b8d6d037ef9' }
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  token: '559936edc66e1b8d6d037ef9' }
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  token: '559936edc66e1b8d6d037ef9' }
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  token: '559936edc66e1b8d6d037ef9' }
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+0
+1
+2
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+0
+1
+2
+0
+1
+2
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+0
+1
+2
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  token: '559936edc66e1b8d6d037ef9' }
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+0
+1
+2
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  token: '55993a84c66e1b8d6d037f04' }
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  token: '559936edc66e1b8d6d037ef9' }
+0
+1
+2
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+0
+1
+2
+0
+1
+2
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+0
+1
+2
+0
+1
+2
+
+/root/KCJB/node_modules/redis/index.js:602
+                throw err;
+                      ^
+TypeError: Cannot read property 'createTime' of null
+    at /root/KCJB/routes/history.js:31:9
+    at Array.sort (native)
+    at /root/KCJB/routes/history.js:30:7
+    at try_callback (/root/KCJB/node_modules/redis/index.js:592:9)
+    at RedisClient.return_reply (/root/KCJB/node_modules/redis/index.js:685:13)
+    at HiredisReplyParser.<anonymous> (/root/KCJB/node_modules/redis/index.js:321:14)
+    at HiredisReplyParser.emit (events.js:95:17)
+    at HiredisReplyParser.execute (/root/KCJB/node_modules/redis/lib/parser/hiredis.js:43:18)
+    at RedisClient.on_data (/root/KCJB/node_modules/redis/index.js:547:27)
+    at Socket.<anonymous> (/root/KCJB/node_modules/redis/index.js:102:14)
+    at Socket.emit (events.js:95:17)
+    at Socket.<anonymous> (_stream_readable.js:765:14)
+    at Socket.emit (events.js:92:17)
+    at emitReadable_ (_stream_readable.js:427:10)
+    at emitReadable (_stream_readable.js:423:5)
+    at readableAddChunk (_stream_readable.js:166:9)
+come come
+listen
+listen done
+listening worker 7007Address:
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  token: '559936edc66e1b8d6d037ef9' }
+0
+1
+2
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  token: '559936edc66e1b8d6d037ef9' }
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  token: '559936edc66e1b8d6d037ef9' }
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+{ cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  token: '559936edc66e1b8d6d037ef9' }
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+0
+1
+2
+0
+1
+2
+0
+1
+2
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+0
+1
+2
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+Missing error handler on `socket`.
+TypeError: Cannot read property 'display' of undefined
+    at Socket.<anonymous> (/root/KCJB/chat_server.js:166:39)
+    at Socket.emit (events.js:95:17)
+    at Socket.onevent (/root/KCJB/node_modules/socket.io/lib/socket.js:330:8)
+    at Socket.onpacket (/root/KCJB/node_modules/socket.io/lib/socket.js:290:12)
+    at Client.ondecoded (/root/KCJB/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/root/KCJB/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/root/KCJB/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.emit (events.js:95:17)
+    at Socket.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/socket.js:99:14)
+    at WebSocket.emit (events.js:117:20)
+    at WebSocket.Transport.onPacket (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:91:8)
+    at WebSocket.Transport.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transport.js:102:8)
+    at WebSocket.onData (/root/KCJB/node_modules/socket.io/node_modules/engine.io/lib/transports/websocket.js:75:30)
+    at WebSocket.emit (events.js:98:17)
+    at Receiver.ontext (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/WebSocket.js:741:10)
+    at Receiver.opcodes.1.finish (/root/KCJB/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/Receiver.js:391:14)
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+0
+1
+2
+npm ERR! weird error 143
+npm ERR! not ok code 0
+
+> KCJB@0.0.0 start /root/KCJB
+> node ./bin/www
+
+listen
+listen done
+listening worker 9233Address:
+npm ERR! weird error 143
+npm ERR! not ok code 0

@@ -1,0 +1,18 @@
+npm ERR! Error: ENOENT, open '/root/KCJB/routes/package.json'
+npm ERR! If you need help, you may report this log at:
+npm ERR!     <http://github.com/isaacs/npm/issues>
+npm ERR! or email it to:
+npm ERR!     <npm-@googlegroups.com>
+
+npm ERR! System Linux 3.10.0-123.9.3.el7.x86_64
+npm ERR! command "node" "/usr/bin/npm" "start"
+npm ERR! cwd /root/KCJB/routes
+npm ERR! node -v v0.10.36
+npm ERR! npm -v 1.3.6
+npm ERR! path /root/KCJB/routes/package.json
+npm ERR! code ENOENT
+npm ERR! errno 34
+npm ERR! 
+npm ERR! Additional logging details can be found in:
+npm ERR!     /root/KCJB/routes/npm-debug.log
+npm ERR! not ok code 0

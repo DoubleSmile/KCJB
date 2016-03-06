@@ -1,0 +1,30 @@
+<div class="panel panel-default">
+    <div class="panel-heading">异常用户列表</div>
+    <div class="panel-body">
+        <table class="display" cellspacing="0" width="100%">
+            <thead>
+                <tr>
+                    <th>登录名</th>
+                    <th>姓名</th>
+                    <th>昵称</th>
+                    <th>异常类型</th>
+                    <th>操作者</th>
+                    <th>操作时间</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+<script type="text/javascript">
+$("table").dataTable({
+    'ajax': '/api/user/abnormal',
+    'columns': [
+    {'data': "username"}, 
+    {'data': "name"},
+    {'data':"nickname"},
+    {'data':"grant"},
+    {'data':"by"},
+    {'data':"createTime"}]
+});
+</script>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN" ng-app="kcjb">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>后台管理</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css">
+    <style type="text/css">
+    .list-group-item {
+        *background-color: #505670;
+    }
+    
+    .list-group .collapse a {
+        *background-color: #5bb9fc;
+    }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-default" style="margin:0;">
+        <div class="container-fluid" style="background-color:#">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" style="padding-top:5px;">
+                    <img src="images/logo.png" alt="LOGO">
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#"><span>后台管理中心</span></a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href=""><span class="glyphicon glyphicon-user" id="username">&nbsp;您好，xxx老师!</span></a></li>
+                    <li><a href=""><span class="glyphicon glyphicon-off" id="logout">&nbsp;安全退出</span></a></li>
+                    <li><a href=""><span class="glyphicon glyphicon-circle-arrow-left" id="back">&nbsp;返回大厅</span></a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="row" style="margin-right:0;">
+        <div class="col-md-2">
+            <ul class="list-group">
+                <a data-toggle="collapse" href="#count" aria-expanded="false" aria-controls="count" class="list-group-item active qu"><span class="glyphicon glyphicon-certificate">&nbsp;账户管理</span></a>
+                <ul class="list-group collapse" id="count" style="margin:0;">
+                    <a ui-sref="profile" class="list-group-item" style="padding-left:60px;">个人资料修改<span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+                    <a ui-sref="spread" class="list-group-item" style="padding-left:60px;">我的推广链接<span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+                    <a ui-sref="score" class="list-group-item" style="padding-left:60px;">我的积分<span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+                </ul>
+                <a data-toggle="collapse" href="#user" aria-expanded="false" aria-controls="user" class="list-group-item qu"><span class="glyphicon glyphicon-user">&nbsp;用户管理</span></a>
+                <ul class="list-group collapse" id="user" style="margin:0;">
+                    <a ui-sref="userlist" class="list-group-item" style="padding-left:60px;">用户列表<span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+                    <a ui-sref="unuser" class="list-group-item" style="padding-left:60px;">异常用户查询<span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+                    <a ui-sref="blacklist" class="list-group-item" style="padding-left:60px;">黑名单<span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+                    <a ui-sref="warning" class="list-group-item" style="padding-left:60px;">订阅提醒<span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+                </ul>
+                <a data-toggle="collapse" href="#home" aria-expanded="false" aria-controls="home" class="list-group-item qu"><span class="glyphicon glyphicon-home">&nbsp;房间维护</span></a>
+                <ul class="list-group collapse" id="home" style="margin:0;">
+                    <a ui-sref="table" class="list-group-item" style="padding-left:60px;">排班表<span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+                </ul>
+                <a data-toggle="collapse" href="#product" aria-expanded="false" aria-controls="product" class="list-group-item qu"><span class="glyphicon glyphicon-certificate">&nbsp;产品管理</span></a>
+                <ul class="list-group collapse" id="product" style="margin:0;">
+<!--                     <a ui-sref="prosel" class="list-group-item" style="padding-left:60px;">产品分类<span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+ -->                    <a ui-sref="profix" class="list-group-item" style="padding-left:60px;">产品维护<span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+<!--                     <a ui-sref="price" class="list-group-item" style="padding-left:60px;">价格换算<span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+ -->                </ul>
+                <a data-toggle="collapse" href="#han" aria-expanded="false" aria-controls="han" class="list-group-item qu"><span class="glyphicon glyphicon-volume-up">&nbsp;喊单管理</span></a>
+                <ul class="list-group collapse" id="han" style="margin:0;">
+                    <a ui-sref="handan" class="list-group-item" style="padding-left:60px;">喊单统计<span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+                </ul>
+                <a href="#" class="list-group-item qu"><span class="glyphicon glyphicon-file">&nbsp;文件管理</span></a>
+                <a href="#" class="list-group-item qu"><span class="glyphicon glyphicon-cog">&nbsp;系统设置</span></a>
+            </ul>
+        </div>
+        <div class="col-md-10" id="refresh" ui-view>
+            <h2>欢迎来到管理中心</h2>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.form.min.js"></script>
+    <script type="text/javascript" src="js/jquery.dataTables.js"></script>
+    <script type="text/javascript" src="js/angular.js"></script>
+    <script type="text/javascript" src="js/angular-ui-router.js"></script>
+    <script type="text/javascript" src="js/router.js"></script>
+</body>
+<script type="text/javascript">
+$("#back").click(function(event) {
+    window.location.href="/index.html";
+});
+$(".qu").click(function(event) {
+    $(".qu").attr('class', 'list-group-item qu');
+    $(".qu").next('.collapse').attr('class', 'list-group collapse');
+    $(this).attr('class', 'list-group-item qu active');
+});
+$(document).ready(function() {
+    $.ajax({
+            url: '/api/info',
+            type: 'GET',
+            dataType: 'json',
+        })
+        .done(function(data) {
+            console.log("info success", data);
+            if (data.succ == 0) {
+                if (data.group >= 90) {
+                    $("#username").text(data.display);
+                    __info=data;
+                } else {
+                    alert("您没有权限登陆");
+                    window.location.href = "/login.html";
+                }
+
+            } else {
+                window.location.href = "/login.html";
+
+            }
+        });
+
+});
+$("#logout").click(function(event) {
+    $.ajax({
+            url: '/api/logout',
+            type: 'POST',
+            dataType: 'json',
+
+        })
+        .done(function() {
+            console.log("success");
+            window.location.href = "/login.html";
+
+        });
+
+});
+</script>
+
+</html>

@@ -1,0 +1,159 @@
+body {
+    background-color: #efefef;
+    overflow-x: hidden;
+}
+    #userdd li a{
+        color:#fff;
+    }
+    #sideToggle:checked + aside {
+        right: 5px;
+    }
+    
+    #sideToggle:checked ~ .col-xs-7 {
+        width: 43.66666667%;
+        *width:37.333333%;
+    }
+    
+    aside {
+        position: absolute;
+        top: 75px;
+        bottom: 0;
+        right: -200px;
+        width: 200px;
+        transition: 0.2s ease-out;
+        -webkit-transition: 0.2s ease-out;
+        -moz-transition: 0.2s ease-out; /* Firefox 4 */
+        -o-transition: 0.2s ease-out; /* Opera */
+    }
+    
+    .col-xs-7 {
+        transition: 0.25s ease-out;
+        -webkit-transition: 0.25s ease-out;
+        -moz-transition: 0.2s ease-out; /* Firefox 4 */
+        -o-transition: 0.2s ease-out; /* Opera */
+
+    }
+    
+    label {
+        cursor: pointer;
+    }
+    
+    #home1 {
+        position: relative;
+        width: 100%;
+        *min-height: 200px;
+        border: 2px solid #ccc;
+        overflow: hidden;
+    }
+       
+    #line {
+        position: absolute;
+        top: 75%;
+        width: 100%;
+        height: 1px;
+        overflow: hidden;
+        background: #ddd;
+        cursor: n-resize;
+    }
+span {
+    font-size: 12px;
+    word-wrap:break-word;
+    word-break:break-all;
+}
+
+.list-group-item {
+    border: 0px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.col-md-1 {
+    width: 90px;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#loginWrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(5, 5, 5, .6);
+    text-align: center;
+    display: block;
+    padding-top: 50px;
+}
+
+#nickWrapper {
+    display: none;
+}
+
+#historyMsg {
+    *height: 200px;
+    *background-color: #fff;
+    overflow: auto;
+    padding: 2px;
+}#historyMsg1 {
+    *height: 200px;
+    *background-color: #fff;
+    overflow: auto;
+    padding: 2px;
+}
+
+#historyMsg img {
+    max-width: 99%;
+}#historyMsg1 img {
+    max-width: 99%;
+}
+
+.timespan {
+    color: #ddd;
+}
+
+#messageInput {
+    width: 100%;
+    max-width: 100%;
+    height: 90px;
+    max-height: 90px;
+}
+
+#emojiWrapper {
+    display: none;
+    width: 500px;
+    bottom: 130px;
+    position: absolute;
+    background-color: #aaa;
+    box-shadow: 0 0 10px #555;
+}
+
+#emojiWrapper img {
+    margin: 2px;
+    padding: 2px;
+    width: 25px;
+    height: 25px;
+}
+
+#emojiWrapper img:hover {
+    background-color: blue;
+}

@@ -1,0 +1,164 @@
+<div class="panel panel-default">
+    <div class="panel-heading">产品列表</div>
+    <div class="panel-body">
+        <!--         <form novalidate ng-submit="profileForm()">
+            <div class="form-group">
+                <label for="" class="col-sm-1 control-label">选择分类</label>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" id="" placeholder="" name="workTime" ng-model="score.startTime">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-1 control-label">产品编码</label>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" id="" placeholder="" name="workTime" ng-model="score.endTime">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-1 control-label">产品名称</label>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" id="" placeholder="" name="workTime" ng-model="score.endTime">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-2">
+                    <button type="submit" class="btn btn-primary">查找产品</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-2">
+                    <button type="submit" class="btn btn-primary" data-toggle='modal' data-target='#myModal'>新增产品</button>
+                </div>
+            </div>
+        </form> -->
+        <!--         <table class="table table-striped table-hover table-bordered">
+            <thead>
+                <td>产品名称</td>
+                <td>成本</td>
+                <td>行情提醒</td>
+                <td>操作</td>
+            </thead>
+            <tr ng-repeat="item in items">
+                <td>{{item.name}}</td>
+                <td>{{item.name}}</td>
+                <td>{{item.name}}</td>
+                <td>
+                    <button class="btn-default btn btn-sm" data-toggle='modal' data-target='#myModal'>编辑</button>
+                    <button class="btn-default btn btn-sm">删除</button>
+                </td>
+            </tr>
+        </table> -->
+        <table class="display" cellspacing="0" width="100%">
+            <thead>
+                <tr>
+                    <td>产品分类</td>
+                    <td>产品名称</td>
+                    <td>成本</td>
+                    <td>操作</td>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+<button type="button" class="btn btn-primary pull-right" data-toggle='modal' data-target='#myModal' onclick="show()">新增产品</button>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">新增产品</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" novalidate ng-submit="profixForm()">
+                    <div class="form-group">
+                        <label for="" class="col-sm-4 control-label">商品名称</label><span style="color:red;">*</span>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" placeholder="商品名称" name="productname">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="col-sm-4 control-label">选择分类</label><span style="color:red;">*</span>
+                        <div class="col-sm-5">
+                            <select type="text" class="form-control" name="select" id="selectt"></select>
+                        </div>
+                    </div>
+                    <div class="form-group" id="hide">
+                        <label for="" class="col-sm-4 control-label">新增分类</label><span style="color:red;">*</span>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" id="new" placeholder="请填写好新的分类再点击添加，然后再选择分类中选择" name="new" ng-model="user.new">
+                            <button class="btn btn-primary" id="add" type="button">增加</button>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="col-sm-4 control-label">成本</label><span style="color:red;">*</span>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" id="" placeholder="成本" name="cost">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="col-sm-4 control-label">盈亏金额</label>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" id="" placeholder="盈亏金额" name="benifit">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-5">
+                            <button type="button" class="btn btn-default pull-right" data-dismiss="modal">取消</button>
+                            <button type="submit" class="btn btn-primary pull-right">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--             <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                <button type="submit" class="btn btn-primary">保存</button>
+            </div> -->
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+$("#add").unbind('click').click(function(event) {
+    $("#selectt").append("<option value=" + $("#new").val() + ">" + $("#new").val() + "</option>");
+});
+
+function product_edit(category, name) {
+    $.ajax({
+            url: '/api/product/' + category + '/' + name,
+            dataType: 'json',
+
+        })
+        .done(function(data) {
+            console.log("product success", data);
+            $("#selectt>option").remove();
+            $("#selectt").attr('disabled', true);
+            $("input[name='productname']").val(data.name);
+            $("input[name='productname']").attr('disabled', true);
+            $("input[name='cost']").val(data.cost);
+            $("input[name='benifit']").val(data.factor);
+            $("#hide").css('display', 'none');
+            $("#selectt").append('<option value=' + data.category + '>' + data.category + '</option>');
+            $("#selectt>option").attr('selected', 'selected');
+        });
+}
+
+function show() {
+    $("#selectt").attr('disabled', false);
+    $("input[name='productname']").attr('disabled', false);
+    $("#hide").css('display', 'block');
+    $.ajax({
+            url: '/api/category',
+            dataType: 'json',
+        })
+        .done(function(data) {
+            console.log("success");
+            $("#selectt>option").remove();
+            for (var i = 0; i < data.length; i++) {
+                $("#selectt").append('<option value=' + data[i].name + '>' + data[i].name + '</option>');
+
+            };
+
+        });
+
+}
+</script>

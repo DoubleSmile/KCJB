@@ -1,0 +1,30 @@
+<div class="panel panel-default">
+    <div class="panel-heading">订阅即将过期查询</div>
+    <div class="panel-body">
+        <table class="display" cellspacing="0" width="100%">
+            <thead>
+                <tr>
+                    <th>账号</th>
+                    <th>姓名</th>
+                    <th>昵称</th>
+                    <th>分析师</th>
+                    <th>订阅时间</th>
+                    <th>到期时间</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+<script type="text/javascript">
+$("table").dataTable({
+    'ajax': '/api/',
+    'columns': [
+    {'data': "username"}, 
+    {'data':"by"},
+    {'data':""},
+    {'data':""},
+    {'data':""},
+    {'data':"createTime"}]
+});
+</script>
